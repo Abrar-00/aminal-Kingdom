@@ -1,0 +1,435 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(243, 175, 49);
+  height: 5.5rem;
+  opacity: 98%;
+}
+.nav-div {
+  border-radius: 5px;
+  padding-top: 6rem;
+  padding-left: 2rem;
+  width: 15.5%;
+  height: 18rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/lucas-benjamin-GAM-7l4QzmI-unsplash.jpg);
+}
+span i {
+  font-size: 4.5rem;
+  padding: 1rem 1.2rem;
+}
+.nav-logo-p {
+  font-weight: 500;
+}
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  margin: 0rem 0.8rem;
+}
+.header {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/uriel-soberanes-NYEKGLxmuE4-unsplash.jpg);
+  width: 100%;
+  height: 50rem;
+}
+.content {
+  padding: 10rem 2rem;
+}
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.header p {
+  font-weight: bold;
+  color: antiquewhite;
+}
+.Ak-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.Ak-link:hover {
+  color: rgb(243, 175, 49);
+}
+.icon-div {
+  background-color: rgb(87, 46, 58);
+  width: 100%;
+  height: 30rem;
+}
+.icon {
+  padding: 4rem 6rem;
+}
+.icon i {
+  padding: 1.5rem 1.5rem;
+  border-radius: 50%;
+  background-color: orange;
+  color: orangered;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.map {
+  color: orangered;
+  text-decoration: none;
+}
+.map:hover {
+  color: rgb(243, 175, 49);
+}
+.buy-tickets {
+  color: orangered;
+  text-decoration: none;
+}
+.buy-tickets:hover {
+  color: rgb(243, 175, 49);
+}
+.icon h5 {
+  color: orangered;
+  text-align: center;
+}
+.icon h4 {
+  color: aliceblue;
+}
+.icon p {
+  color: bisque;
+}
+.information {
+  width: 100%;
+  height: 30rem;
+}
+#img-panda {
+  background-image: url(./img/sid-balachandran-_9a-3NO5KJE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 30rem;
+  margin: -4rem 4rem;
+  /* border: 2px black solid; */
+  border-radius: 15rem 3rem 15rem 3rem;
+}
+#panda-logo {
+  background-color: rgb(248, 60, 2);
+  width: 8rem;
+  height: 8rem;
+  border: 2px black solid;
+  border-radius: 50%;
+  margin-top: 19rem;
+  margin-left: 35rem;
+}
+#panda-logo i {
+  color: rgb(243, 175, 49);
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+.panda-heading {
+  margin-top: 5rem;
+  font-weight: 300;
+  text-align: center;
+}
+.maccaw {
+  margin-top: 3rem;
+  background-image: url(./img/dominik-lange-Lej_oqHljbk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 37rem;
+  background-attachment: fixed;
+}
+.col-md-6 {
+  margin-top: 3rem;
+  margin-left: 4rem;
+  text-align: center;
+  color: aliceblue;
+}
+.col-md-6 h1 {
+  font-size: 3.1rem;
+  margin: 2rem 0rem;
+}
+.col-md-6 p {
+  word-spacing: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn-macacw {
+  background-color: rgb(248, 60, 2);
+  color: aliceblue;
+}
+#horse-img {
+  background-size: cover;
+  background-image: url(./img/sammy-leigh-scholl-usk52YRwGrM-unsplash.jpg);
+  width: 50%;
+  height: 30rem;
+  margin: 2rem 5rem;
+  border-radius: 15rem 3rem 15rem 3rem;
+}
+.horse-logo {
+  background-color: rgb(248, 60, 2);
+  width: 8rem;
+  height: 8rem;
+  border: 2px black solid;
+  border-radius: 50%;
+  margin-top: 19rem;
+  margin-left: 35rem;
+}
+.horse-logo i {
+  color: rgb(243, 175, 49);
+  font-size: 4rem;
+  padding: 2rem 2rem;
+}
+.horse-heading {
+  font-weight: 300;
+  margin: 2rem 0rem;
+  text-align: center;
+}
+.learn .col-md-4 {
+  float: right;
+  width: 9rem;
+  height: 9rem;
+  display: inline-block;
+  border: 1px solid black;
+}
+.educate i {
+  font-size: 3rem;
+  margin: 2rem 2.5rem;
+  color: rgb(248, 60, 2);
+}
+.educate-p {
+  font-weight: 500;
+  margin: -1rem 2.5rem;
+  color: black;
+}
+.we-play i {
+  font-size: 3rem;
+  margin: 2rem 2.5rem;
+  color: rgb(248, 60, 2);
+}
+.we-play-p {
+  font-weight: 500;
+  margin: -1rem 2.5rem;
+  color: black;
+}
+.getting-know i {
+  font-size: 3rem;
+  margin: 2rem 2.5rem;
+  color: rgb(248, 60, 2);
+}
+.getting-know-p {
+  font-weight: 500;
+  margin: -1rem 2.5rem;
+  color: black;
+}
+
+.btn-offer {
+  color: aliceblue;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(87, 46, 58);
+  margin: 3rem 0.5rem;
+  border: none;
+}
+.btn-gallery {
+  background-color: rgb(248, 60, 2);
+  padding: 0.8rem 1.5rem;
+  color: aliceblue;
+  border: none;
+}
+.app-links {
+  width: 100%;
+  height: 35rem;
+  background-image: url(./img/app-link.jpg);
+  background-size: cover;
+}
+.app-detail h1 {
+  font-weight: 300;
+}
+.download-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.apple-link {
+  width: 12rem;
+  height: 5rem;
+  font-weight: 500;
+  color: aliceblue;
+  text-decoration: underline black;
+  background-color: black;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+.android-link {
+  font-weight: 500;
+  width: 12rem;
+  height: 5rem;
+  color: aliceblue;
+  text-decoration: underline black;
+  background-color: black;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+.apple-link i {
+  font-size: 2.6rem;
+  padding: 1rem 0rem;
+}
+.android-link i {
+  font-size: 2.6rem;
+  padding: 1rem 0rem;
+}
+.app-map {
+  background-image: url(./img/thumbnail.jpg);
+  background-size: cover;
+  width: 60%;
+  height: 25rem;
+  margin-left: 47rem;
+  margin-top: -28rem;
+  border-radius: 50%;
+}
+.park-background {
+  background-color: black;
+  width: 100%;
+  height: 22rem;
+}
+.row h6 {
+  font-size: 1.1rem;
+  text-decoration: underline black;
+  padding: 3rem 3.5rem;
+  color: aliceblue;
+}
+.row h6:hover {
+  display: none;
+}
+.dinosaur-park {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-size: cover;
+  background-image: url(./img/michael-descharles-rbupxkfFqSE-unsplash.jpg);
+  width: 60%;
+  height: 13rem;
+  border-radius: 10px;
+  border-radius: 50%;
+  opacity: 50%;
+}
+.dino-h {
+  font-size: 2rem;
+}
+.dinosaur-park .dino-h,
+.d-para {
+  color: aliceblue;
+  text-decoration: none;
+  opacity: 0%;
+}
+.dinosaur-park .dino-h,
+.d-para:hover {
+  opacity: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: rgb(243, 175, 49);
+  transition: ease-in 0.8s;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline rgb(248, 60, 2);
+}
+.dinosaur-park:hover {
+  border-radius: 5px;
+  width: 102%;
+  height: 27rem;
+  transition: 0.7s;
+  opacity: 100%;
+}
+.insect-park {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-size: cover;
+  background-image: url(./img/rosie-kerr-0VEpqskYPgI-unsplash.jpg);
+  width: 60%;
+  height: 13rem;
+  border-radius: 50%;
+  opacity: 50%;
+}
+.insect-park:hover {
+  width: 102%;
+  height: 27rem;
+  transition: 0.7s;
+  border-radius: 5px;
+  opacity: 100%;
+}
+.nature-park {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-size: cover;
+  background-image: url(./img/mathias-p-r-reding-BKOmT3bz0Uk-unsplash.jpg);
+  width: 60%;
+  height: 13rem;
+  border-radius: 50%;
+  opacity: 50%;
+}
+.nature-park:hover {
+  width: 102%;
+  height: 27rem;
+  transition: 0.7s;
+  border-radius: 5px;
+  opacity: 100%;
+}
+.end-part {
+  width: 100%;
+  height: 30rem;
+}
+#send-msg {
+  margin-top: 10rem;
+}
+#send-msg h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+#send-msg .btn {
+  background-color: rgb(248, 60, 2);
+  color: aliceblue;
+  margin: 2rem 0rem;
+}
+#map-shortcut {
+  margin-top: 10rem;
+}
+#map-shortcut h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+#map-shortcut p {
+  text-align: center;
+  font-weight: 300;
+  color: rgb(248, 60, 2);
+}
+#contact-link {
+  margin-top: 10rem;
+}
+#contact-link h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.contact-pic {
+  margin: 2rem 2rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(./img/125975116_3002162706551872_1126562914354235299_n.jpg);
+  width: 6rem;
+  height: 6rem;
+}
+.contact-pic i {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  font-size: 2.4rem;
+  color: rgb(243, 175, 49);
+}
+.contact-pic p {
+  font-size: 1rem;
+}
+.number {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(248, 60, 2);
+}
+.last-line h5 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-left: 3rem;
+}
